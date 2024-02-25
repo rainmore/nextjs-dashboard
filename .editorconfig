@@ -19,7 +19,7 @@ ij_visual_guides = 80,120,140,256
 ij_wrap_on_typing = false
 
 
-[*.{js,ts,scss,css,yml,json}]
+[*.{js,ts,tsx,scss,css,yml,json,html}]
 indent_size = 2
 
 [*.{java,gradle,kts}]
