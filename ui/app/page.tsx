@@ -1,10 +1,20 @@
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
 import AcmeLogo from '@/app/ui/acme-logo';
 import { lusitana } from '@/app/ui/fonts';
 import styles from '@/app/ui/home.module.css';
+
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Acme Dashboard',
+    default: 'Acme Dashboard',
+  },
+  description: 'The official Next.js Learn Dashboard built with App Router.',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+};
 
 export default function Page() {
   return (
