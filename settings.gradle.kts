@@ -1,7 +1,7 @@
 rootProject.name = "reactjs"
 
 include(
-    "ui"
+    "nextjs"
 )
 
 pluginManagement {
